@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "paths": {
+      "ngx-event-debugger": [
+        "./projects/ngx-event-debugger/src/public-api.ts"
+      ]
+    },
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "preserve"
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  },
+  "files": [],
+  "references": [
+    { "path": "./projects/ngx-event-debugger/tsconfig.lib.json" },
+    { "path": "./projects/ngx-event-debugger/tsconfig.spec.json" },
+    { "path": "./projects/demo-app/tsconfig.app.json" },
+    { "path": "./projects/demo-app/tsconfig.spec.json" }
+  ]
+}
